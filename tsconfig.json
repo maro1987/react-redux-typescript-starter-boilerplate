@@ -1,0 +1,21 @@
+{
+  "version": "1.7.5",
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "dist"
+  },
+  "files" : [
+    "typings/browser.d.ts"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "typings/main.d.ts",
+    "typings/main"
+  ]
+}
